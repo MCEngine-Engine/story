@@ -1,3 +1,5 @@
+[![bStats](https://raw.githubusercontent.com/intergrav/devins-badges/refs/heads/v3/assets/cozy/available/bstats_vector.svg)](https://bstats.org/plugin/bukkit/MCEngineStory/26183)
+
 # 📚 Information
 
 This plugin is designed to support **AddOns**, **DLCs**, and other plugins.
