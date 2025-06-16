@@ -1,0 +1,6 @@
+name: MCEngineStory
+version: ${version}
+main: io.github.mcengine.papermc.story.engine.MCEngineStoryPaperMC
+author: MCEngine
+description: MCEngine Story
+api-version: 1.13

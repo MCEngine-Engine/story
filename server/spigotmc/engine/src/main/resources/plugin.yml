@@ -1,0 +1,6 @@
+name: MCEngineStory
+version: ${version}
+main: io.github.mcengine.spigotmc.story.engine.MCEngineStorySpigotMC
+author: MCEngine
+description: MCEngine Story
+api-version: 1.13
