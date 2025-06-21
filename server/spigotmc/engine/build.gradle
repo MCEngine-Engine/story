@@ -5,11 +5,11 @@ plugins {
 dependencies {
     compileOnly 'org.spigotmc:spigot-api:1.21.5-R0.1-SNAPSHOT'
 
-    implementation 'io.github.mcengine:mcengine-api:1.0.0-RELEASE'
-    implementation 'io.github.mcengine:mcengine-artificialintelligence-api:1.0.1-RELEASE'
-    implementation 'io.github.mcengine:mcengine-currency-api:1.0.1-RELEASE'
-    implementation 'io.github.mcengine:mcengine-story-api:1.0.0-SNAPSHOT'
-    compileOnly project(':common')
+    implementation 'io.github.mcengine:core-api:1.0.3-RELEASE'
+    implementation 'io.github.mcengine:artificialintelligence-api:1.0.2-RELEASE'
+    implementation 'io.github.mcengine:currency-api:1.0.2-RELEASE'
+    implementation 'io.github.mcengine:story-api:1.0.0-4-SNAPSHOT'
+    implementation 'io.github.mcengine:story-common:1.0.0-SNAPSHOT'
 }
 
 processResources {
