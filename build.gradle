@@ -15,11 +15,11 @@ ext {
     user_github_token = System.getenv('USER_GITHUB_TOKEN')
 
     // Organization
-    organization_name = System.getenv('ORGANIZATION_NAME') ?: 'MCEngine'
+    organization_name = System.getenv('ORGANIZATION_NAME') ?: 'MCEngine-Engine'
     organization_token = System.getenv('ORGANIZATION_TOKEN')
 
     // Repository
-    repository_name = System.getenv('REPOSITORY_NAME') ?: 'story-engine'
+    repository_name = System.getenv('REPOSITORY_NAME') ?: 'story'
     repository_token = System.getenv('REPOSITORY_TOKEN')
 
     /* Project Information */
@@ -63,10 +63,10 @@ allprojects {
             }
         }
 
-        configureGitHubRepo('MCEngine Core API', 'https://maven.pkg.github.com/MCEngine/core-api')
-        configureGitHubRepo('MCEngine Artificial Intelligence API', 'https://maven.pkg.github.com/MCEngine/artificialintelligence-api')
-        configureGitHubRepo('MCEngine Currency API', 'https://maven.pkg.github.com/MCEngine/currency-api')
-        configureGitHubRepo('MCEngine Story API', 'https://maven.pkg.github.com/MCEngine/story-api')
+        configureGitHubRepo('MCEngine Core API', 'https://maven.pkg.github.com/MCEngine-API/core')
+        configureGitHubRepo('MCEngine Artificial Intelligence API', 'https://maven.pkg.github.com/MCEngine-API/artificialintelligence')
+        configureGitHubRepo('MCEngine Currency API', 'https://maven.pkg.github.com/MCEngine-API/currency')
+        configureGitHubRepo('MCEngine Story API', 'https://maven.pkg.github.com/MCEngine-API/story')
     }
 }
 
