@@ -9,7 +9,6 @@ dependencies {
     implementation 'io.github.mcengine:artificialintelligence-api:2025.0.8-17'
     implementation 'io.github.mcengine:currency-api:2025.0.8-17'
     implementation 'io.github.mcengine:story-api:2025.0.8-17'
-    implementation 'io.github.mcengine:story-common:2025.0.8-17'
 }
 
 processResources {
