@@ -7,7 +7,7 @@ dependencies {
 
     implementation 'io.github.mcengine:core-api:2025.0.8-30'
     implementation 'io.github.mcengine:artificialintelligence-api:2025.0.8-30'
-    implementation 'io.github.mcengine:currency-api:2025.0.8-30'
+    implementation 'io.github.mcengine:economy-api:2025.0.8-30'
     implementation 'io.github.mcengine:story-api:2025.0.8-30'
 }
 
